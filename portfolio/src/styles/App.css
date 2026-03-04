@@ -5,6 +5,32 @@
   text-align: center;
 }
 
+.sidebyside{
+  display: flex;
+  flex-direction: row;
+}
+
+.sideDiv{
+  width: 50%;
+  margin:10px;
+}
+
+.headShot{
+  width: auto;
+  height:200px;
+  border-radius:5px;
+}
+
+#infoMe{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#abtMeP{
+  width: 50%;
+}
+
 #projectBar{
   display: Flex;
   flex-direction: row;

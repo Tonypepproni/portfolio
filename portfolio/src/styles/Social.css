@@ -1,0 +1,33 @@
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+}
+
+.icon{
+    width: auto;
+    height:40px;
+    margin: 0px 15px 0px 5px;
+}
+
+.socialLink{
+    border: 1px solid #003344;
+    border-radius: 20px;
+    margin:10px;
+}
+
+.socialLink:hover{
+    border-color: #0099FF;
+}
+
+
+
+a, a:visited{
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+a:hover{
+    color:#66FF00;
+}
