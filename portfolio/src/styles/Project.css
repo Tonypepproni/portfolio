@@ -25,3 +25,11 @@
     color: #ffffff;
     background-color: #008000;
 }
+
+.visit{
+    background-color: #4c00b0;
+    border: 1px solid #ca5cdd;
+    border-radius: 20px;
+    padding: 2px;
+    margin-bottom: 10px;
+}

@@ -38,7 +38,7 @@ function App() {
       <WebSiteSection name='Projects' id='projects'>
         <div id='projectBar'>
           {projects.map((project,index)=>(
-            <Project key={index} name={project.name} desc={project.desc} tags={project.tags}/>
+            <Project key={index} name={project.name} desc={project.desc} tags={project.tags} repoLink={project.repoLink}/>
           ))}
         </div> 
       </WebSiteSection>
