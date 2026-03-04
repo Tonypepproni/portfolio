@@ -1,0 +1,24 @@
+.sTags{
+    display: flex;
+    flex-direction: row;
+}
+
+.skillTag{
+    font-size: 17px;
+    border-color: #1A3D00;
+}
+
+.skillTag:hover{
+    border-color: #66FF00;
+}
+
+.SkillsCard{
+    border: 1px solid #003344;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.SkillsCard:hover{
+    border-color: #0099FF;
+}
