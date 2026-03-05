@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+html{
+  scroll-snap-type: y mandatory;
+  
+}
+
 .sidebyside{
   display: flex;
   flex-direction: row;

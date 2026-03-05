@@ -13,9 +13,10 @@ function App() {
 
   return (
     <div className='App'>
-      <header>
+      <WebSiteSection id='header'>
         <h1>NICOLE ROSSI</h1>
-      </header>
+        <h3>Amazing Super Awseome Girl</h3>
+      </WebSiteSection>
       <WebSiteSection name='About Me' id='aboutMe'>
         <div className='sidebyside'>
           <div className='sideDiv' id='infoMe'>

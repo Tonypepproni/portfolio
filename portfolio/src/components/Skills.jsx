@@ -1,10 +1,5 @@
 import SkillsCard from "./SkillsCard"
-
-const skills = [
-    {name: 'Langauges & Frameworks',tags:['Python','JavaScripts','ReactJS','HTML5','CSS','BootStrap']},
-    {name: 'Python Libraries',tags:['Folium','Flask','Pandas','Jinja','FastAPI','Numpy']},
-    {name:'Tools & Platforms',tags:['Jira','VS Code','Git','Discord','Microsoft Office 365']}
-]
+import {skills} from "./../data/skills"
 
 function Skills(){
     return(
