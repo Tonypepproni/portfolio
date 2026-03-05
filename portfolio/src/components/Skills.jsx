@@ -5,7 +5,7 @@ function Skills(){
     return(
         <>
             {skills.map((skill,index)=>(
-                <SkillsCard key={index} skillType={skill.name} tags={skill.tags} />
+                <SkillsCard key={index} skillType={skill.name} tags={skill.tags} icon={skill.icon} />
             ))}
         </>
     )

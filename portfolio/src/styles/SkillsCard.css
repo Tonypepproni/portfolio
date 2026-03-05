@@ -13,7 +13,24 @@
     border-color: #66FF00;
 }
 
+.skillHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skillHeader h4 {
+    margin-left: 10px;
+    font-size: large;
+}
+
 .SkillsCard{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+
     border: 1px solid #003344;
     border-radius: 30px;
     margin: 10px;
@@ -23,4 +40,11 @@
 
 .SkillsCard:hover{
     border-color: #0099FF;
+}
+
+.skillIcon{
+    padding: 10px;
+    border: 1px solid #66FF00;
+    background-color: #1A3D00;
+    border-radius: 30%;
 }
