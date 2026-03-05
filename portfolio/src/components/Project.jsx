@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
+
 import './../styles/Project.css'
 
 function Project({name='No Name Given', desc='No Desc Given',tags=['No tag given'],repoLink=null}){
@@ -11,13 +14,14 @@ function Project({name='No Name Given', desc='No Desc Given',tags=['No tag given
                 ))}
             </div>
             {repoLink ? (
-                <a href={repoLink} target='_blank'>
+                <a href={repoLink} target='_blank' className='visit'>
                     <div className='visit'>
-                        Visit Repo
+                        <p>Visit Repository</p>
+                        <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                     </div>
                 </a>
             ) : (
-                 <div className='visit'>
+                 <div className='visit' style={{backgroundColor:'#242424'}}>
                         Private Repo
                     </div>
             )}

@@ -23,7 +23,8 @@ html{
 .headShot{
   width: auto;
   height:200px;
-  border-radius:5px;
+  border-radius:50%;
+  border: 1px solid #0099FF;
 }
 
 #infoMe{
@@ -34,6 +35,25 @@ html{
 
 #abtMeP{
   width: 50%;
+  text-align: left;
+}
+
+#socialMedias{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#resumeA{
+  width: 100%;
+}
+
+#Resume{
+  border: 1px solid #66FF00;
+  border-radius: 50px;
+  width: 100%;
+  background-color: #008000;
 }
 
 #projectBar{
@@ -59,3 +79,14 @@ html{
   }
 }
 
+
+@media screen and (max-width:430px){
+  .sidebyside{
+    flex-direction: column;
+  }
+  .webSiteSection{
+    height: 100vh;
+    width: auto;
+  }
+  
+}

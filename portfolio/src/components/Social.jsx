@@ -4,9 +4,9 @@ import { faGithub, faInstagram, faLinkedin} from "@fortawesome/free-brands-svg-i
 import './../styles/Social.css'
 
 const icons = {
-    'Instagram' : {icon:faInstagram, link:'https://www.instagram.com/nic0ro/'},
-    'Github' : {icon:faGithub,link:'https://github.com/Tonypepproni'},
-    'LinkedIn' : {icon:faLinkedin,link:"https://www.linkedin.com/in/nicole-rossi-34133429b/"}
+    'Instagram' : {icon:faInstagram, link:'https://www.instagram.com/nic0ro/',username:'nic0ro'},
+    'Github' : {icon:faGithub,link:'https://github.com/Tonypepproni',username:'Tonypepproni'},
+    'LinkedIn' : {icon:faLinkedin,link:"https://www.linkedin.com/in/nicole-rossi-34133429b/",username:'Nicole Rossi'}
 }
 
 function Social({type}){

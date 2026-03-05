@@ -9,17 +9,16 @@ import headshot from './assets/headShot.jpg'
 
 import {projects} from './data/projects'
 
+import resume from './data/resume.pdf'
+
 function App() {
 
   return (
     <div className='App'>
-      <WebSiteSection id='header'>
-        <h1>NICOLE ROSSI</h1>
-        <h3>Amazing Super Awseome Girl</h3>
-      </WebSiteSection>
-      <WebSiteSection name='About Me' id='aboutMe'>
+      <WebSiteSection id='aboutMe'>
         <div className='sidebyside'>
           <div className='sideDiv' id='infoMe'>
+            <h1>NICOLE ROSSI</h1>
             <img className='headShot' src={headshot} />
             <p id='abtMeP'>
               I am a CS senior student at Pace University in the school of Sidenberg. 
@@ -30,6 +29,11 @@ function App() {
           </div>
           <div className='sideDiv' id='socialMedias'>
             <SocialMedias />
+            <a id='resumeA' href={resume}>
+              <div id='Resume'>
+                <h3>Resume</h3>
+              </div>
+            </a>
           </div>
         </div>
       </WebSiteSection>
@@ -42,6 +46,12 @@ function App() {
             <Project key={index} name={project.name} desc={project.desc} tags={project.tags} repoLink={project.repoLink}/>
           ))}
         </div> 
+      </WebSiteSection>
+      <WebSiteSection name='Education' id='education'>
+          
+      </WebSiteSection>
+      <WebSiteSection name='Contact Me' id='contact'>
+
       </WebSiteSection>
     </div>
   )
