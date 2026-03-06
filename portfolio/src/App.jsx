@@ -4,6 +4,7 @@ import Project from './components/Project'
 import WebSiteSection from './components/webSiteSection'
 import SocialMedias from './components/SocialMedias'
 import Skills from './components/Skills'
+import EdSection from './components/EdSection'
 
 import headshot from './assets/headShot.jpg'
 
@@ -47,11 +48,8 @@ function App() {
           ))}
         </div> 
       </WebSiteSection>
-      <WebSiteSection name='Education' id='education'>
-          
-      </WebSiteSection>
-      <WebSiteSection name='Contact Me' id='contact'>
-
+      <WebSiteSection name='Education & Certificates' id='education'>
+          <EdSection />
       </WebSiteSection>
     </div>
   )

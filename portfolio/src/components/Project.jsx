@@ -22,7 +22,7 @@ function Project({name='No Name Given', desc='No Desc Given',tags=['No tag given
                 </a>
             ) : (
                  <div className='visit' style={{backgroundColor:'#242424'}}>
-                        Private Repo
+                        <p>Private Repository</p>
                     </div>
             )}
         </div>

@@ -1,0 +1,27 @@
+.certification{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.certification p {
+    text-align: left;
+}
+
+.certHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+}
+
+.certHeader h2, h3{
+    margin: 10px;
+}
