@@ -7,7 +7,7 @@
     border: 1px solid black;
     border-radius: 10px;
     height: 275px;
-    width: 300px;
+    width: 33%;
 }
 
 .tags{
@@ -53,3 +53,8 @@ a.visit{
     margin-top: auto;
 }
 
+@media screen and (max-width:430px){
+    .project{
+        width: 90%;
+    }
+}

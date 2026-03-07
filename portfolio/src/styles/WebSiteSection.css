@@ -1,12 +1,15 @@
 .webSiteSection{
-    min-height: 100px;
     display: flex;
     flex-direction: column;
-    height:100vh;
+    height:auto;
+    min-height:100svh;
     scroll-snap-align: start;
     align-items: center;
     justify-content: center;
     overflow-y: auto;
+    width: 100vw;
+    width: 100svw;
+
 }
 
 .webSectionHeader{

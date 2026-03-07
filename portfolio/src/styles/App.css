@@ -1,18 +1,20 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 html{
   scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100%;
   
 }
 
 .sidebyside{
   display: flex;
   flex-direction: row;
+  width: 80%;
 }
 
 .sideDiv{
@@ -83,5 +85,15 @@ html{
 @media screen and (max-width:430px){
   .sidebyside{
     flex-direction: column;
+    justify-content: center;
   }  
+
+  .sideDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #abtMeP{
+    width: 90%;
+  }
 }

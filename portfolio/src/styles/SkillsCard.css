@@ -48,3 +48,9 @@
     background-color: #1A3D00;
     border-radius: 30%;
 }
+
+@media screen and (max-width:430px) {
+    .sTags{
+        flex-wrap: wrap;
+    }
+}
