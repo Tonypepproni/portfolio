@@ -5,7 +5,7 @@
 }
 
 html{
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   overflow-y: scroll;
   height: 100%;
   
@@ -49,13 +49,17 @@ html{
 
 #resumeA{
   width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-#Resume{
+#Resume,#Email{
   border: 1px solid #66FF00;
   border-radius: 50px;
   width: 100%;
   background-color: #008000;
+  margin: 40px 0px 40px 0px;
 }
 
 #projectBar{
@@ -95,5 +99,9 @@ html{
   }
   #abtMeP{
     width: 90%;
+  }
+
+  html{
+    scroll-snap-type: none;
   }
 }

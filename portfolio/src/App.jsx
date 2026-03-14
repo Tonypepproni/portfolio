@@ -22,10 +22,9 @@ function App() {
             <h1>NICOLE ROSSI</h1>
             <img className='headShot' src={headshot} />
             <p id='abtMeP'>
-              I am a CS senior student at Pace University in the school of Sidenberg. 
-              I work mainly with Python and JS. 
-              Most of my projects are a mix of front and backend dev but mainly backend.
-              When im not at my computer working I enjoy hiking and camping in national parks.
+              I am a CS senior at Pace University in the school of Seidenberg, I specialize in Python and React.
+              Most of my projects are a mix of front and backend dev.
+              When I'm not at my computer working I enjoy hiking and camping in national parks.
             </p>
           </div>
           <div className='sideDiv' id='socialMedias'>
@@ -35,6 +34,10 @@ function App() {
                 <h3>Resume</h3>
               </div>
             </a>
+              <div id='Email'>
+                <h3>Contact Me</h3>
+                <h4>nicolerossireach@gmail.com</h4>
+              </div>
           </div>
         </div>
       </WebSiteSection>

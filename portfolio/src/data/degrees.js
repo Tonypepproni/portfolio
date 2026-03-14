@@ -1,6 +1,6 @@
 export const degrees =[
+    {collegeName:'Pace University',degree:'Bachelor of Science (BS) in Computer Science ',gradDate:'May 2026'},
     {collegeName:'Bergen Community College',degree:'Associate in science (AS) in Computer Science',gradDate:'May 2024'},
-    {collegeName:'Pace University',degree:'Bachelor of Science (BS) in Computer Science ',gradDate:'May 2026'}
 ]
 
 export const certifications = [
